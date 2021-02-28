@@ -2000,6 +2000,11 @@
   "resolved" "https://registry.npmjs.org/@types/q/-/q-1.5.4.tgz"
   "version" "1.5.4"
 
+"@types/qs@6.9.5":
+  "integrity" "sha512-/JHkVHtx/REVG0VVToGRGH2+23hsYLHdyG+GrvoUGlGAd0ErauXDyvHtRI/7H7mzLm+tBCKA7pfcpkQ1lf58iQ=="
+  "resolved" "https://registry.npmjs.org/@types/qs/-/qs-6.9.5.tgz"
+  "version" "6.9.5"
+
 "@types/react-dom@^17.0.0":
   "integrity" "sha512-yIVyopxQb8IDZ7SOHeTovurFq+fXiPICa+GV3gp0Xedsl+MwQlMLKmvrnEjFbQxjliH5YVAEWFh975eVNmKj7Q=="
   "resolved" "https://registry.npmjs.org/@types/react-dom/-/react-dom-17.0.1.tgz"
@@ -6299,7 +6304,7 @@
   "resolved" "https://registry.npmjs.org/human-signals/-/human-signals-1.1.1.tgz"
   "version" "1.1.1"
 
-"husky@=4":
+"husky@4.3.8":
   "integrity" "sha512-LCqqsB0PzJQ/AlCgfrfzRe3e3+NvmefAdKQhRYpxS4u6clblBoDdzzvHi8fmxKRzvMxPY/1WZWzomPZww0Anow=="
   "resolved" "https://registry.npmjs.org/husky/-/husky-4.3.8.tgz"
   "version" "4.3.8"
