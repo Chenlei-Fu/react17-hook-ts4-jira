@@ -14,6 +14,15 @@ Finish Json server configuration
   - State initialization
   - Lifting State Up
 
+02/28
+Add two custom hooks: useMount and useDebounce
+JS -> TS
+
+03/02
+install dev tools
+generic features for deBounce
+JWT and auth-provider
+
 ### Knowledge
 
 #### How to mock data?
