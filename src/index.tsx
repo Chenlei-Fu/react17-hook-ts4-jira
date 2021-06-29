@@ -4,6 +4,8 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { loadDevTools } from "jira-dev-tool";
+// 务必在jira dev tool后引入，以覆盖样式
+import "antd/dist/antd.less" // in order to customize： use craco
 import { AppProviders } from "./context";
 
 loadDevTools(() => ReactDOM.render(

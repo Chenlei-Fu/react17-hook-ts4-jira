@@ -40,10 +40,10 @@ export const http = async (endpoint: string, {data, token, headers, ...customCon
         return Promise.reject(data);
       }
     });
-}
+};
 
 export const useHttp = () => {
   const {user} = useAuth()
-  // ts 操作符
+  // ts utility types： use Generic to pass another type, then utility type do some operation on it.
   return (...[endpoint, config]: Parameters<typeof http>) => http(endpoint, {...config, token: user?.token })
-}
+};
